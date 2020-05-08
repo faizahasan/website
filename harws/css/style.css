@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+padding:0px;
+margin:0px;
+}
+body{
+background-image:url(../image/bg3.jpg);
+font:12px Arial, Helvetica, sans-serif;
+}
+#holder{
+width:1024px;
+margin:auto;
+}
+a{
+text-decoration:underline;
+color:#000000;
+}
+#navi{
+width:630px;
+height:26px;
+margin-left:0px;
+top:20px;
+}
+#navi a{
+text-decoration:none;
+}
+#menubar {
+	background:none;
+	width:630px;
+	height:26px;
+	
+//	border:1px dashed;
+padding-left:0px;
+color:#232323;
+}
+#menubar ul {
+	margin:0 0 0 0px;
+	padding:0px;
+	list-style:none;
+//	border:1px dashed;
+}
+#menubar ul li {
+	padding:10px 0;
+	float:left;
+//	border:1px dashed;
+}
+#menubar ul li a {
+	padding:9px 25px 15px 25px;
+    color:#232323;
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	line-height:8px;
+	border-right:0px solid #1d1d1d;
+	border-left:0px solid #1d1d1d;
+}
+#menubar ul li a:hover {
+	background:#222;
+	color:#fff;
+}
+#menubar ul ul {
+	margin:14px 0 0 0;
+	background:#efefef;
+	position:absolute;
+	display:none;
+	z-index:100;
+	
+}
+#menubar ul ul li {
+	padding:0px;
+	float:none;
+	border-bottom:1px dotted #333333;
+}
+#menubar ul ul li a {
+	display:block;
+	border:none;
+}
+#menubar ul li:hover > ul {
+	display:block;
+}
+#menubar ul li:hover > a {
+	background:#000000;
+	color:#FFFFFF;
+}
